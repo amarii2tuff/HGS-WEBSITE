@@ -1,0 +1,70 @@
+* {
+    text-align: center;
+    background-color: #D3D3D3; /* Light gray background for entire page */
+    color: #4F4F4F; /* Medium gray for text */
+}
+
+.flex-container, .flex-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > div,
+.flex-container2 > div {
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    height: 150px;
+    background-color: #A9A9A9; /* DarkGray */
+    border-radius: 10%;
+    border-color: #808080; /* Gray border */
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_text, .title_text2 {
+    color: #4F4F4F; /* Medium gray */
+    font-size: 100px;
+}
+
+.header_text, .header_text2 {
+    color: #4F4F4F;
+    font-size: 50px;
+}
+
+.normal_text, .normal_text2 {
+    color: #4F4F4F;
+    font-size: 30px;
+}
+
+.backspace_pic {
+    width: 100px;
+}
+
+.backspace_special {
+    margin-right: 2000px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.random_div {
+    margin: 100px;
+}
+
+
+body {
+  background-image: url("grey.png"); /* Use your file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: grey; /* Fallback color in case image doesn't load */
+}
+
